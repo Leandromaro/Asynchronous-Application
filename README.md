@@ -15,12 +15,12 @@ Asynchronous application that makes a call to a github rest api asynchronously
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-### RUN
+## RUN
 
 - mvn clean install
 - java -jar target/asynchronous-0.1.0.jar
 
-### Test the application
+## Test the application
 
 - localhost:8080/github/user?name=PivotalSoftware
 
@@ -28,4 +28,5 @@ Asynchronous application that makes a call to a github rest api asynchronously
 
 https://github.com/Leandromaro
 
+##
 This service was built using [Spring Guides](https://spring.io/guides/gs/async-method/).
